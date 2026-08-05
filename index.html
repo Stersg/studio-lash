@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio de Conteúdo · Instagram · Nathalia Matos Lash</title>
+  <meta name="description" content="Sistema de criação de conteúdo para Instagram no nicho de lash design: tendências, roteiros, gerador de posts, criador de arte, calendário e estratégia." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">NM</div>
+      <div>
+        <h1>Studio de Conteúdo</h1>
+        <p class="sub">Instagram · Nathalia Matos Lash 💛</p>
+      </div>
+    </div>
+    <button id="themeToggle" class="theme-btn" title="Alternar tema">🌙</button>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="hoje">🌅 Hoje</button>
+    <button class="tab" data-tab="radar">📡 Tendências</button>
+    <button class="tab" data-tab="produtos">📚 Guia</button>
+    <button class="tab" data-tab="motiva">💬 Frases</button>
+    <button class="tab" data-tab="roteiros">🔥 Roteiros</button>
+    <button class="tab" data-tab="gerador">✍️ Gerador</button>
+    <button class="tab" data-tab="arte">🎨 Arte</button>
+    <button class="tab" data-tab="estrategia">📈 Estratégia</button>
+    <button class="tab" data-tab="calendario">🗓️ Calendário</button>
+  </nav>
+
+  <main>
+    <!-- HOJE -->
+    <section id="hoje" class="panel active">
+      <div class="hero">
+        <span class="pill">Prontos pra postar</span>
+        <h2>Seus posts de hoje <span id="hojeData" class="muted-tag"></span></h2>
+        <p>Posts prontos pra publicar no feed. Copie a legenda, clique em <strong>Criar arte</strong> e poste. 💛</p>
+      </div>
+      <div id="hojeList"></div>
+    </section>
+
+    <!-- ESTRATÉGIA -->
+    <section id="estrategia" class="panel">
+      <div class="hero">
+        <span class="pill">Objetivo: CRESCER + AGENDAR ✨</span>
+        <h2>Como o sistema funciona</h2>
+        <p>Fluxo: escolha um post pronto (<strong>Hoje</strong>, <strong>Tendências</strong>, <strong>Guia</strong> ou <strong>Frases</strong>), clique em <strong>Criar arte</strong>, copie e poste. Objetivo duplo: crescer o alcance e lotar a agenda do estúdio. 💛</p>
+      </div>
+
+      <div class="flow" id="flow"></div>
+
+      <div class="grid">
+        <div class="card stat"><h3>Frequência</h3><p class="big">4–6</p><p>posts + stories na semana</p></div>
+        <div class="card stat"><h3>Horários</h3><p class="big">12h · 19h · 21h</p><p>picos do público beauty</p></div>
+        <div class="card stat"><h3>Métrica-rei</h3><p class="big">🔖 + 📩</p><p>salvamentos e directs &gt; curtidas</p></div>
+      </div>
+
+      <div class="card">
+        <h3>Proporção semanal de categorias</h3>
+        <div class="bars" id="propBars"></div>
+      </div>
+
+      <div class="grid2">
+        <div class="card good">
+          <h3>✅ Regras de ouro</h3>
+          <ul>
+            <li><strong>Reels de transformação</strong> alcançam muito mais.</li>
+            <li><strong>Antes e depois</strong> na 1ª imagem sempre prende.</li>
+            <li><strong>Gancho na 1ª linha</strong> da legenda.</li>
+            <li>Sempre 1 <strong>CTA</strong>: salvar, compartilhar ou agendar.</li>
+            <li><strong>Stories todo dia</strong> (bastidores + caixinha).</li>
+            <li>Responder <strong>directs e comentários rápido</strong>.</li>
+          </ul>
+        </div>
+        <div class="card bad">
+          <h3>❌ O que evitar</h3>
+          <ul>
+            <li>Foto de resultado solta, sem contexto ou legenda.</li>
+            <li>Legenda gigante sem gancho na 1ª linha.</li>
+            <li>Vender em todo post (cansa e afasta).</li>
+            <li>Postar e sumir, sem responder ninguém.</li>
+            <li>Hashtags genéricas demais (#amor #foto).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- RADAR -->
+    <section id="radar" class="panel">
+      <div class="hero">
+        <h2>📡 Tendências & Novidades</h2>
+        <p>As técnicas e efeitos em alta no mundo lash. Clique na seta para abrir o <strong>post pronto</strong> e criar a arte. <span id="radarDate" class="muted-tag"></span></p>
+      </div>
+      <div id="radarList"></div>
+      <p class="hint">Dica: sempre que surgir uma tendência nova, transforme em post pra mostrar que o seu estúdio está por dentro. ✨</p>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="produtos" class="panel">
+      <div class="hero">
+        <h2>📚 Guia de Cílios</h2>
+        <p>Conteúdo que nunca vence: técnicas, cuidados, manutenção e segurança. Clique na seta pra abrir o post e criar a arte.</p>
+      </div>
+      <div id="produtosList"></div>
+    </section>
+
+    <!-- MOTIVAÇÃO -->
+    <section id="motiva" class="panel">
+      <div class="hero">
+        <h2>💬 Frases e citações</h2>
+        <p>Frases e citações do seu nicho. Ótimas para os modelos Cofre e Citação.</p>
+      </div>
+      <div id="motivaList"></div>
+    </section>
+
+    <!-- ROTEIROS -->
+    <section id="roteiros" class="panel">
+      <div class="hero">
+        <h2>🔥 Roteiros virais</h2>
+        <p>Formatos comprovados. Filtre por categoria e use como molde.</p>
+      </div>
+      <div class="filters" id="catFilters"></div>
+      <div class="roteiros-grid" id="roteirosGrid"></div>
+    </section>
+
+    <!-- GERADOR -->
+    <section id="gerador" class="panel">
+      <div class="hero">
+        <h2>✍️ Gerador de post</h2>
+        <p>Categoria → roteiro → preencha → copie. Depois clique em <strong>Criar arte</strong>.</p>
+      </div>
+      <div class="gen-layout">
+        <div class="card gen-form">
+          <label class="lbl">1. Categoria</label>
+          <div class="chip-row" id="genCats"></div>
+          <label class="lbl">2. Roteiro viral</label>
+          <select id="genRoteiro" class="select"></select>
+          <p class="hint" id="roteiroHint"></p>
+          <div id="genFields"></div>
+          <button id="genBtn" class="primary-btn">Gerar post ✨</button>
+        </div>
+        <div class="card gen-output">
+          <div class="output-head">
+            <label class="lbl">Seu post</label>
+            <div>
+              <span class="counter" id="charCount">0 caract.</span>
+              <button id="copyBtn" class="ghost-btn">📋 Copiar</button>
+            </div>
+          </div>
+          <textarea id="genOutput" class="output" placeholder="Sua legenda aparece aqui, pronta pra colar no Instagram..." spellcheck="false"></textarea>
+          <button id="toArtBtn" class="secondary-btn">🎨 Criar arte deste post →</button>
+          <p class="hint" id="tipLine"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTE -->
+    <section id="arte" class="panel">
+      <div class="hero">
+        <h2>🎨 Criador de arte</h2>
+        <p>Gera a imagem do post (1080×1350, formato 4:5 ideal do feed) pronta para baixar. Tem também 1:1 e Story 9:16. Todos os modelos usam a sua paleta:</p>
+        <div class="art-palette" id="artPalette"></div>
+      </div>
+      <div class="art-layout">
+        <div class="card">
+          <label class="lbl">1. Modelo</label>
+          <div class="chip-row" id="artTemplates"></div>
+
+          <label class="lbl">Etiqueta (tag pequena)</label>
+          <input id="artTag" class="fld" placeholder="Ex.: Produtos · Renda fixa" />
+
+          <label class="lbl" id="lblTitle">Título / gancho</label>
+          <textarea id="artTitle" class="fld" placeholder="Ex.: CDB rende mais que a poupança?"></textarea>
+
+          <label class="lbl">Linha de apoio (opcional)</label>
+          <textarea id="artSub" class="fld" placeholder="Ex.: Sim, e a diferença assusta."></textarea>
+
+          <div id="tweetFields" class="cond-fields">
+            <label class="lbl">@usuário (Tweet)</label>
+            <input id="artHandle" class="fld" placeholder="@suamarca" />
+            <label class="lbl">Sua foto (avatar)</label>
+            <input id="artFoto" type="file" accept="image/*" class="fld file" />
+            <p class="hint" id="fotoHint">Escolha uma vez — fica salva no seu navegador e vale pros próximos posts.</p>
+          </div>
+
+          <div id="extratoFields" class="cond-fields">
+            <label class="lbl">Linha de dados 1 (rótulo | valor)</label>
+            <input id="artData1" class="fld" placeholder="Poupança 12m | + R$ 617" />
+            <label class="lbl">Linha de dados 2 (rótulo | valor)</label>
+            <input id="artData2" class="fld" placeholder="CDB 100% CDI | + R$ 1.043" />
+          </div>
+
+          <div id="numeroFields" class="cond-fields">
+            <label class="lbl">Número em destaque</label>
+            <input id="artNum" class="fld" placeholder="4" />
+          </div>
+
+          <div id="fotoFraseFields" class="cond-fields">
+            <label class="lbl">Imagem de fundo (opcional)</label>
+            <input id="artBg" type="file" accept="image/*" class="fld file" />
+            <p class="hint">Se vazio, usa a sua foto. Dica: uma imagem bonita (paisagem, mesa, etc.).</p>
+          </div>
+
+          <div id="forbesFields" class="cond-fields">
+            <label class="lbl">Autor da frase (opcional)</label>
+            <input id="artAutor" class="fld" placeholder="Ex.: Mindy Grossman" />
+            <label class="lbl">Descrição do autor (opcional)</label>
+            <input id="artAutorDesc" class="fld" placeholder="Ex.: Executiva americana" />
+          </div>
+
+          <label class="lbl">Formato</label>
+          <div class="chip-row" id="artFormats"></div>
+          <div class="art-actions">
+            <button id="artRender" class="primary-btn">Atualizar arte 🔄</button>
+            <button id="artDownload" class="secondary-btn">⬇️ Baixar PNG</button>
+          </div>
+        </div>
+        <div class="card art-preview-card">
+          <label class="lbl">Prévia</label>
+          <div class="canvas-wrap"><canvas id="artCanvas" width="1080" height="1350"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALENDÁRIO -->
+    <section id="calendario" class="panel">
+      <div class="hero">
+        <h2>🗓️ Calendário editorial — 4 semanas</h2>
+        <p>5 posts/semana respeitando a proporção das categorias. Clique num dia para abrir o gerador.</p>
+      </div>
+      <div id="calendar"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Studio de Conteúdo · Nathalia Matos Lash 💛 · Instagram · 100% local, sem coleta de dados.</p>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+  <script src="config.js"></script>
+  <script src="posts.js"></script>
+  <script src="radar.js"></script>
+  <script src="produtos.js"></script>
+  <script src="motivacional.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
