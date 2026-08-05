@@ -349,7 +349,8 @@ let artTemplate="cartao", artFormat="retrato";
 const FORMATS={ retrato:{w:1080,h:1350,nome:"Retrato 4:5"}, quadrado:{w:1080,h:1080,nome:"Quadrado 1:1"}, story:{w:1080,h:1920,nome:"Story 9:16"} };
 const TEMPLATES={
   extrato:{nome:"Extrato"}, cofre:{nome:"Cofre"}, cartao:{nome:"Cartão"},
-  numero:{nome:"Número"}, fotofrase:{nome:"Foto + Frase"}, forbes:{nome:"Citação"}, tweet:{nome:"Tweet"}
+  numero:{nome:"Número"}, fotofrase:{nome:"Foto + Frase"}, forbes:{nome:"Citação"}, tweet:{nome:"Tweet"},
+  moldura:{nome:"Foto + Texto"}, antesdepois:{nome:"Foto + Legenda"}
 };
 const SERIF='Georgia, "Times New Roman", serif';
 const MONO='Consolas, "Courier New", monospace';
@@ -598,8 +599,43 @@ function renderForbes(ctx,W,H,d){
   }
 }
 
+/* ---- Modelo 8: Foto + Texto (texto sobre a foto, minimalista) ---- */
+function renderFotoTexto(ctx,W,H,d){
+  const img=postImg||bgImg||((fotoImg&&fotoImg.complete&&fotoImg.naturalWidth)?fotoImg:null);
+  if(img&&img.complete&&img.naturalWidth){ drawCover(ctx,img,0,0,W,H); }
+  else{ ctx.fillStyle=V.darkbg;ctx.fillRect(0,0,W,H);
+    ctx.fillStyle=V.yellow;ctx.font=`700 34px ${SANS}`;ctx.textAlign="center";ctx.fillText("adicione uma foto",W/2,H*0.5);ctx.textAlign="left"; }
+  const bandH=Math.round(H*0.5);const g=ctx.createLinearGradient(0,H-bandH,0,H);
+  g.addColorStop(0,"rgba(15,12,9,0)");g.addColorStop(1,"rgba(15,12,9,.92)");ctx.fillStyle=g;ctx.fillRect(0,H-bandH,W,bandH);
+  const pad=Math.round(W*0.085);ctx.textBaseline="alphabetic";
+  if(d.tag){ctx.font=`700 24px ${SANS}`;ctx.fillStyle=V.yellow;ctx.fillText(d.tag.toUpperCase(),pad,Math.round(H*0.10));}
+  let y=H-pad;
+  ctx.font=`600 26px ${SANS}`;ctx.fillStyle=V.yellow;ctx.fillText((SG_NOME||"").toUpperCase(),pad,y);y-=46;
+  if(d.sub){ctx.font=`400 40px ${SANS}`;ctx.fillStyle="#EEE7DA";const s=wrap(ctx,d.sub,W-pad*2);for(let i=s.length-1;i>=0;i--){ctx.fillText(s[i],pad,y);y-=50;}y-=8;}
+  const q=d.title||"Seu texto aqui";const fs=q.length>44?58:q.length>26?70:82;ctx.font=`800 ${fs}px ${SANS}`;ctx.fillStyle="#FFF9F0";
+  const tl=wrap(ctx,q,W-pad*2);for(let i=tl.length-1;i>=0;i--){ctx.fillText(tl[i],pad,y);y-=fs*1.12;}
+  y-=6;ctx.fillStyle=V.yellow;ctx.fillRect(pad,y,60,5);
+}
+
+/* ---- Modelo 9: Foto + Legenda (foto em cima, faixa clara embaixo) ---- */
+function renderFotoLegenda(ctx,W,H,d){
+  const img=postImg||bgImg||((fotoImg&&fotoImg.complete&&fotoImg.naturalWidth)?fotoImg:null);
+  const photoH=Math.round(H*0.64);
+  if(img&&img.complete&&img.naturalWidth){ drawCover(ctx,img,0,0,W,photoH); }
+  else{ ctx.fillStyle=V.darkbg;ctx.fillRect(0,0,W,photoH);
+    ctx.fillStyle=V.yellow;ctx.font=`700 32px ${SANS}`;ctx.textAlign="center";ctx.fillText("adicione uma foto",W/2,photoH/2);ctx.textAlign="left"; }
+  ctx.fillStyle=V.cream;ctx.fillRect(0,photoH,W,H-photoH);
+  const pad=Math.round(W*0.085);let y=photoH+Math.round(H*0.075);ctx.textBaseline="alphabetic";
+  if(d.tag){ctx.font=`700 24px ${SANS}`;ctx.fillStyle=V.yellow;ctx.fillText(d.tag.toUpperCase(),pad,y);y+=20;}
+  ctx.fillStyle=V.yellow;ctx.fillRect(pad,y,54,5);y+=44;
+  const q=d.title||"Seu texto aqui";const fs=q.length>44?54:q.length>26?64:74;ctx.font=`700 ${fs}px ${SERIF}`;ctx.fillStyle=V.ink;
+  wrap(ctx,q,W-pad*2).forEach(l=>{ctx.fillText(l,pad,y+fs);y+=fs*1.16;});y+=6;
+  if(d.sub){ctx.font=`400 36px ${SANS}`;ctx.fillStyle=V.inkSoft;wrap(ctx,d.sub,W-pad*2).forEach(l=>{ctx.fillText(l,pad,y+30);y+=46;});}
+  ctx.font=`600 24px ${SANS}`;ctx.fillStyle=V.inkSoft;ctx.fillText((SG_NOME||"").toUpperCase(),pad,H-Math.round(H*0.045));
+}
+
 /* ---- foto/avatar do usuário (salva no navegador) ---- */
-let fotoImg=null, bgImg=null;
+let fotoImg=null, bgImg=null, postImg=null;
 (function bgSetup(){
   let saved=null; try{saved=localStorage.getItem("sg_bg");}catch(_){}
   if(saved){bgImg=new Image();bgImg.onload=()=>drawArt();bgImg.src=saved;}
@@ -634,13 +670,24 @@ function drawAvatar(ctx,img,cx,cy,r){
     rd.readAsDataURL(f);
   });
 })();
+/* ---- foto dos modelos Foto + Texto e Foto + Legenda (não salva, troca por post) ---- */
+function _loadFotoInto(inputId, assign){
+  const inp=document.getElementById(inputId); if(!inp) return;
+  inp.addEventListener("change",e=>{
+    const f=e.target.files&&e.target.files[0]; if(!f) return;
+    const rd=new FileReader();
+    rd.onload=()=>{ const im=new Image(); im.onload=()=>{ assign(im); drawArt(); }; im.src=rd.result; toast("Foto adicionada ✨"); };
+    rd.readAsDataURL(f);
+  });
+}
+(function fotosExtras(){ _loadFotoInto("artFotoPost", im=>{postImg=im;}); })();
 
 function drawArt(){
   const f=FORMATS[artFormat], cv=document.getElementById("artCanvas");
   cv.width=f.w;cv.height=f.h;
   const ctx=cv.getContext("2d");
   const d=artData();
-  ({extrato:renderExtrato,cofre:renderCofre,cartao:renderCartao,tweet:renderTweet,numero:renderNumero,fotofrase:renderFotoFrase,forbes:renderForbes}[artTemplate]||renderCartao)(ctx,f.w,f.h,d);
+  ({extrato:renderExtrato,cofre:renderCofre,cartao:renderCartao,tweet:renderTweet,numero:renderNumero,fotofrase:renderFotoFrase,forbes:renderForbes,moldura:renderFotoTexto,antesdepois:renderFotoLegenda}[artTemplate]||renderCartao)(ctx,f.w,f.h,d);
 }
 
 (function artControls(){
@@ -679,6 +726,7 @@ function setArtTemplate(k){
   document.getElementById("numeroFields").style.display=(k==="numero")?"block":"none";
   document.getElementById("fotoFraseFields").style.display=(k==="fotofrase")?"block":"none";
   document.getElementById("forbesFields").style.display=(k==="forbes")?"block":"none";
+  var pf=document.getElementById("fotoPostFields"); if(pf) pf.style.display=(k==="moldura"||k==="antesdepois")?"block":"none";
   drawArt();
 }
 /* tag a partir da categoria (usado pelos botões "Criar arte") */
