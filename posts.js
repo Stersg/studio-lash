@@ -1,7 +1,17 @@
 /* Gerado automaticamente pelo robô semanal. Não edite à mão. */
 window.POSTS = {
-  "data": "17/08/2026",
+  "data": "24/08/2026",
   "itens": [
+    {
+      "categoria": "con",
+      "tag": "Frase · Rotina",
+      "template": "tweet",
+      "artTitulo": "Acordar linda também é ganhar tempo.",
+      "artSub": "Sem correria de manhã.",
+      "fonte": "",
+      "url": "",
+      "texto": "Acordar linda também é ganhar tempo. ⏰\n\nImagina não precisar do rímel, do curvex, da correria antes de sair.\n\nUm olhar valorizado é praticidade e autoestima logo cedo. 💛\n\nVocê trocaria a maquiagem diária por isso? Comenta 👇\n\n#ExtensãoDeCílios #Praticidade #Autocuidado #CíliosPerfeitos"
+    },
     {
       "categoria": "pro",
       "tag": "Transformação",
@@ -14,24 +24,14 @@ window.POSTS = {
     },
     {
       "categoria": "edu",
-      "tag": "Dica · Durabilidade",
+      "tag": "Dica · Cuidados",
       "template": "numero",
-      "num": "3",
-      "artTitulo": "cuidados que fazem seu cílio durar mais",
-      "artSub": "Anota aí ✨",
+      "num": "4",
+      "artTitulo": "hábitos que estragam o seu cílio sem você notar",
+      "artSub": "Evite esses 🚫",
       "fonte": "",
       "url": "",
-      "texto": "3 cuidados que fazem seu cílio durar o dobro 💡\n\nAnota aí que isso muda o jogo:\n\n1. Não molhe os fios nas primeiras 24h.\n2. Escove todo dia com a escovinha, pela manhã.\n3. Fuja de produtos oleosos perto dos olhos.\n\nParece detalhe, mas é o que separa o cílio que dura do que cai em uma semana. ✨\n\nSalva pra não esquecer e me conta: qual você já fazia? 👇\n\n#ExtensãoDeCílios #CuidadosComOsCílios #LashDesign #CíliosPerfeitos"
-    },
-    {
-      "categoria": "pro",
-      "tag": "Antes e depois",
-      "template": "cartao",
-      "artTitulo": "Do olhar apagado ao olhar de boneca",
-      "artSub": "Sem maquiagem, só técnica.",
-      "fonte": "",
-      "url": "",
-      "texto": "Antes: olhar apagado, dependendo de rímel todo dia. 👀\n\nDepois: olhar iluminado e aberto, linda ao acordar sem uma gota de maquiagem. ✨\n\nTécnica usada: volume brasileiro com efeito boneca.\n\nEsse é o poder de um olhar valorizado do jeito certo. 💛\n\nQuer esse resultado? Chama no direct pra agendar. Salva pra inspiração 👇\n\n#AntesEDepois #ExtensãoDeCílios #Transformação #LashLovers"
+      "texto": "4 hábitos que estragam o seu cílio sem você notar 🚫\n\n1. Coçar ou puxar os fios.\n2. Dormir de bruços amassando o olho.\n3. Usar demaquilante oleoso na região.\n4. Ficar sem escovar por dias.\n\nPequenas mudanças, resultado que dura muito mais. 🤍\n\nSalva e marca a amiga que precisa ver 👇\n\n#CuidadosComOsCílios #ExtensãoDeCílios #LashCare #LashDesign"
     }
   ]
 };
