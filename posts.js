@@ -1,37 +1,38 @@
 /* Gerado automaticamente pelo robô semanal. Não edite à mão. */
 window.POSTS = {
-  "data": "24/08/2026",
+  "data": "31/08/2026",
   "itens": [
     {
-      "categoria": "con",
-      "tag": "Frase · Rotina",
-      "template": "tweet",
-      "artTitulo": "Acordar linda também é ganhar tempo.",
-      "artSub": "Sem correria de manhã.",
-      "fonte": "",
-      "url": "",
-      "texto": "Acordar linda também é ganhar tempo. ⏰\n\nImagina não precisar do rímel, do curvex, da correria antes de sair.\n\nUm olhar valorizado é praticidade e autoestima logo cedo. 💛\n\nVocê trocaria a maquiagem diária por isso? Comenta 👇\n\n#ExtensãoDeCílios #Praticidade #Autocuidado #CíliosPerfeitos"
-    },
-    {
       "categoria": "pro",
-      "tag": "Transformação",
-      "template": "cartao",
-      "artTitulo": "Ela não usava mais rímel",
-      "artSub": "E o olhar mudou tudo.",
+      "tag": "Depoimento",
+      "template": "forbes",
+      "artTitulo": "Nunca me senti tão bonita, agora acordo pronta.",
+      "artSub": "",
       "fonte": "",
       "url": "",
-      "texto": "Ela chegou dizendo que vivia cansada de passar rímel e ele borrar. 👀\n\nDepois da extensão, o olhar dela ganhou vida sem nenhum esforço.\n\nNão é sobre exagero, é sobre valorizar o que já é seu. ✨\n\nQuer viver essa mudança? Chama no direct pra agendar 💛\n\n#Transformação #ExtensãoDeCílios #AntesEDepois #LashLovers"
+      "texto": "\"Nunca me senti tão bonita, agora acordo pronta.\" 🥹\n\nFoi o que uma cliente me disse depois da aplicação.\n\nEla veio insegura, achando que não combinava com ela, e saiu apaixonada.\n\nVer a cliente se olhar no espelho e sorrir é tudo pra mim. 💛\n\nQuer sentir isso também? Agenda no direct ✨\n\n#ExtensãoDeCílios #Autoestima #LashLovers #CíliosPerfeitos"
     },
     {
       "categoria": "edu",
-      "tag": "Dica · Cuidados",
-      "template": "numero",
-      "num": "4",
-      "artTitulo": "hábitos que estragam o seu cílio sem você notar",
-      "artSub": "Evite esses 🚫",
+      "tag": "Guia · Técnicas",
+      "template": "extrato",
+      "artTitulo": "Fio a fio x Volume russo",
+      "artSub": "Qual combina com você?",
+      "artData1": "Fio a fio | natural",
+      "artData2": "Volume russo | marcante",
       "fonte": "",
       "url": "",
-      "texto": "4 hábitos que estragam o seu cílio sem você notar 🚫\n\n1. Coçar ou puxar os fios.\n2. Dormir de bruços amassando o olho.\n3. Usar demaquilante oleoso na região.\n4. Ficar sem escovar por dias.\n\nPequenas mudanças, resultado que dura muito mais. 🤍\n\nSalva e marca a amiga que precisa ver 👇\n\n#CuidadosComOsCílios #ExtensãoDeCílios #LashCare #LashDesign"
+      "texto": "Fio a fio ou volume russo? A dúvida de toda cliente 👀\n\nFio a fio: um fio pra cada fio natural, efeito leve e discreto.\n\nVolume russo: leques de vários fios, efeito denso e marcante.\n\nDica: olhos com poucos fios pedem volume, olhos cheios ficam lindos no fio a fio. 💛\n\nQual combina mais com você? Comenta 👇\n\n#ExtensãoDeCílios #FioAFio #VolumeRusso #LashDesign"
+    },
+    {
+      "categoria": "aut",
+      "tag": "Opinião",
+      "template": "cofre",
+      "artTitulo": "O natural voltou com tudo",
+      "artSub": "Menos é mais.",
+      "fonte": "",
+      "url": "",
+      "texto": "Opinião que talvez você não goste de ouvir:\n\nnem toda cliente deveria fazer o volume mais pesado. 💬\n\nCílio bonito é o que respeita a saúde e a quantidade do seu fio natural. Peso demais quebra o cílio.\n\nO luxo de verdade hoje é a delicadeza. 🤍\n\nVocê é time natural ou time volumoso? Comenta 👇\n\n#ExtensãoDeCílios #CíliosNaturais #LashDesign #MenosÉMais"
     }
   ]
 };
