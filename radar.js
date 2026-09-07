@@ -1,42 +1,44 @@
 /* Gerado automaticamente pelo robô semanal. Não edite à mão. */
 window.RADAR = {
-  "atualizadoEm": "31/08/2026",
+  "atualizadoEm": "07/09/2026",
   "itens": [
     {
+      "categoria": "edu",
+      "tag": "Tendência · Curvatura",
+      "template": "numero",
+      "num": "3",
+      "fonte": "",
+      "url": "",
+      "titulo": "Curvaturas C, D e M: o que muda",
+      "resumo": "A curvatura certa valoriza o formato do seu olho.",
+      "artTitulo": "A curvatura muda tudo",
+      "artSub": "C, D ou M pro seu olho",
+      "texto": "A curvatura é o segredo que poucas clientes conhecem. 💡\n\n1. Curvatura C: levanta de forma suave e natural.\n2. Curvatura D: bem marcante, olhar bem aberto.\n3. Curvatura M: efeito espetadinho, super em alta.\n\nA escolha certa depende do formato do seu olho e da queda do seu fio. 💛\n\nQuer saber qual é a sua? Me chama 👇\n\n#ExtensãoDeCílios #CurvaturaDeCílios #LashDesign #CíliosPerfeitos"
+    },
+    {
       "categoria": "aut",
-      "tag": "Tendência · Híbrido",
-      "template": "cartao",
+      "tag": "Tendência · Segurança",
+      "template": "cofre",
       "fonte": "",
       "url": "",
-      "titulo": "Efeito híbrido: o melhor dos dois mundos",
-      "resumo": "Mistura de fio a fio com volume, textura natural e cheia ao mesmo tempo.",
-      "artTitulo": "Híbrido: textura e volume",
-      "artSub": "O melhor dos dois mundos",
-      "texto": "Não consegue decidir entre fio a fio e volume? O híbrido é pra você. ✨\n\nEle mistura as duas técnicas, criando textura natural com um toque de volume.\n\nFica cheio sem parecer pesado, com aquele ar despojado e real.\n\nTendência forte pra quem quer natural, mas com presença. 💛\n\nVocê faria um híbrido? Comenta 👇\n\n#ExtensãoDeCílios #EfeitoHíbrido #LashDesign #CíliosNaturais"
+      "titulo": "Beleza de verdade respeita a sua saúde",
+      "resumo": "Higiene, produtos de qualidade e avaliação honesta em primeiro lugar.",
+      "artTitulo": "Beleza com saúde sempre",
+      "artSub": "Cílio bonito é cílio saudável",
+      "texto": "Cílio bonito de verdade é cílio saudável. 🤍\n\nDesconfie de quem promete tudo sem te avaliar ou usa material duvidoso.\n\nHigiene, produtos de qualidade e uma conversa honesta protegem a sua saúde ocular.\n\nSeu olhar merece cuidado, não pressa. 💛\n\nJá passou por alguma experiência ruim? Comenta 👇\n\n#ExtensãoDeCílios #SaúdeOcular #LashDesign #CíliosNaturais"
     },
     {
       "categoria": "edu",
-      "tag": "Tendência · Efeito",
-      "template": "cartao",
+      "tag": "Tendência · Formato",
+      "template": "numero",
+      "num": "1",
       "fonte": "",
       "url": "",
-      "titulo": "Wispy lashes: o efeito boneca que virou febre",
-      "resumo": "Fios em alturas alternadas que criam um olhar fofo e molhado.",
-      "artTitulo": "Wispy lashes é a queridinha",
-      "artSub": "O efeito boneca que todo mundo quer",
-      "texto": "Já reparou naqueles cílios fofos, com fios espetadinhos em alturas diferentes? 👀\n\nEsse é o wispy lashes, um dos efeitos mais pedidos.\n\nEle cria um olhar molhado e delicado, natural e marcante ao mesmo tempo.\n\nNem todo olho comporta o mesmo desenho, por isso a avaliação antes importa. 💛\n\nCurtiu? Comenta se faria em você 👇\n\n#ExtensãoDeCílios #WispyLashes #LashDesign #CíliosPerfeitos"
-    },
-    {
-      "categoria": "edu",
-      "tag": "Tendência · Técnica",
-      "template": "cartao",
-      "fonte": "",
-      "url": "",
-      "titulo": "Lash lifting: o realce sem extensão",
-      "resumo": "Curvatura e nutrição no seu próprio fio, pra quem quer algo mais discreto.",
-      "artTitulo": "Lash lifting é pra você?",
-      "artSub": "Realce no seu próprio cílio",
-      "texto": "Nem toda cliente quer extensão, e tá tudo bem. 🤍\n\nO lash lifting curva e realça o seu próprio fio, com um efeito natural de rímel.\n\nÉ ótimo pra quem tem cílios bons e quer algo discreto e prático.\n\nQuer entender se combina com você? Me chama no direct 💛\n\n#LashLifting #ExtensãoDeCílios #CíliosNaturais #LashDesign"
+      "titulo": "Efeito raposinha (fox eyes) segue em alta",
+      "resumo": "O alongamento que puxa o olhar pra cima e lateraliza.",
+      "artTitulo": "Fox eyes: o olhar felino",
+      "artSub": "Puxa o olhar pra cima ✨",
+      "texto": "O efeito raposinha segue conquistando as clientes. 🦊\n\nEle concentra os fios mais longos no canto externo, criando um ar levantado e felino.\n\nPerfeito pra quem quer um olhar mais alongado.\n\nMas exige um olho que comporte esse desenho, por isso eu avalio antes. 💛\n\nVocê já tem esse efeito ou faria? Comenta 👇\n\n#ExtensãoDeCílios #FoxEyes #EfeitoRaposinha #LashDesign"
     }
   ]
 };
