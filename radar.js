@@ -1,44 +1,42 @@
 /* Gerado automaticamente pelo robô semanal. Não edite à mão. */
 window.RADAR = {
-  "atualizadoEm": "07/09/2026",
+  "atualizadoEm": "14/09/2026",
   "itens": [
     {
       "categoria": "edu",
-      "tag": "Tendência · Curvatura",
-      "template": "numero",
-      "num": "3",
+      "tag": "Tendência · Efeito",
+      "template": "cartao",
       "fonte": "",
       "url": "",
-      "titulo": "Curvaturas C, D e M: o que muda",
-      "resumo": "A curvatura certa valoriza o formato do seu olho.",
-      "artTitulo": "A curvatura muda tudo",
-      "artSub": "C, D ou M pro seu olho",
-      "texto": "A curvatura é o segredo que poucas clientes conhecem. 💡\n\n1. Curvatura C: levanta de forma suave e natural.\n2. Curvatura D: bem marcante, olhar bem aberto.\n3. Curvatura M: efeito espetadinho, super em alta.\n\nA escolha certa depende do formato do seu olho e da queda do seu fio. 💛\n\nQuer saber qual é a sua? Me chama 👇\n\n#ExtensãoDeCílios #CurvaturaDeCílios #LashDesign #CíliosPerfeitos"
+      "titulo": "Wispy lashes: o efeito boneca que virou febre",
+      "resumo": "Fios em alturas alternadas que criam um olhar fofo e molhado.",
+      "artTitulo": "Wispy lashes é a queridinha",
+      "artSub": "O efeito boneca que todo mundo quer",
+      "texto": "Já reparou naqueles cílios fofos, com fios espetadinhos em alturas diferentes? 👀\n\nEsse é o wispy lashes, um dos efeitos mais pedidos.\n\nEle cria um olhar molhado e delicado, natural e marcante ao mesmo tempo.\n\nNem todo olho comporta o mesmo desenho, por isso a avaliação antes importa. 💛\n\nCurtiu? Comenta se faria em você 👇\n\n#ExtensãoDeCílios #WispyLashes #LashDesign #CíliosPerfeitos"
     },
     {
       "categoria": "aut",
-      "tag": "Tendência · Segurança",
+      "tag": "Novidade · Naturalidade",
       "template": "cofre",
       "fonte": "",
       "url": "",
-      "titulo": "Beleza de verdade respeita a sua saúde",
-      "resumo": "Higiene, produtos de qualidade e avaliação honesta em primeiro lugar.",
-      "artTitulo": "Beleza com saúde sempre",
-      "artSub": "Cílio bonito é cílio saudável",
-      "texto": "Cílio bonito de verdade é cílio saudável. 🤍\n\nDesconfie de quem promete tudo sem te avaliar ou usa material duvidoso.\n\nHigiene, produtos de qualidade e uma conversa honesta protegem a sua saúde ocular.\n\nSeu olhar merece cuidado, não pressa. 💛\n\nJá passou por alguma experiência ruim? Comenta 👇\n\n#ExtensãoDeCílios #SaúdeOcular #LashDesign #CíliosNaturais"
+      "titulo": "Menos é mais: a onda do natural",
+      "resumo": "O exagero saiu de moda. A busca agora é pelo cílio que parece seu.",
+      "artTitulo": "O natural voltou com tudo",
+      "artSub": "O cílio que parece seu, só que melhor",
+      "texto": "A tendência mais forte agora é o olhar natural. 🤍\n\nAs clientes chegam pedindo o efeito de \"parece que nasci assim\".\n\nE eu amo isso, porque cílio bonito respeita o seu fio natural e a sua rotina.\n\nUm bom mapeamento faz o volume certo valorizar sem sobrecarregar. 💛\n\nVocê é time natural ou volumoso? Comenta 👇\n\n#ExtensãoDeCílios #CíliosNaturais #LashDesign #MenosÉMais"
     },
     {
       "categoria": "edu",
-      "tag": "Tendência · Formato",
-      "template": "numero",
-      "num": "1",
+      "tag": "Tendência · Cuidado",
+      "template": "cofre",
       "fonte": "",
       "url": "",
-      "titulo": "Efeito raposinha (fox eyes) segue em alta",
-      "resumo": "O alongamento que puxa o olhar pra cima e lateraliza.",
-      "artTitulo": "Fox eyes: o olhar felino",
-      "artSub": "Puxa o olhar pra cima ✨",
-      "texto": "O efeito raposinha segue conquistando as clientes. 🦊\n\nEle concentra os fios mais longos no canto externo, criando um ar levantado e felino.\n\nPerfeito pra quem quer um olhar mais alongado.\n\nMas exige um olho que comporte esse desenho, por isso eu avalio antes. 💛\n\nVocê já tem esse efeito ou faria? Comenta 👇\n\n#ExtensãoDeCílios #FoxEyes #EfeitoRaposinha #LashDesign"
+      "titulo": "O óleo é o inimigo número 1 dos cílios",
+      "resumo": "Produtos oleosos derrubam a extensão antes da hora.",
+      "artTitulo": "Fuja do óleo perto dos olhos",
+      "artSub": "Proteja a fixação",
+      "texto": "Se tem uma coisa que derruba cílio antes da hora, é o óleo. 🚫\n\nDemaquilantes bifásicos, cremes oleosos e alguns protetores soltam os fios mais rápido.\n\nA dica é usar produtos oil free na região e limpar com shampoo específico.\n\nCuidado simples, resultado que dura muito mais. 💛\n\nVocê sabia dessa? Comenta 👇\n\n#CuidadosComOsCílios #ExtensãoDeCílios #LashCare #CíliosPerfeitos"
     }
   ]
 };
