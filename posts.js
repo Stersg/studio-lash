@@ -1,18 +1,16 @@
 /* Gerado automaticamente pelo robô semanal. Não edite à mão. */
 window.POSTS = {
-  "data": "14/09/2026",
+  "data": "21/09/2026",
   "itens": [
     {
       "categoria": "edu",
-      "tag": "Guia · Técnicas",
-      "template": "extrato",
-      "artTitulo": "Fio a fio x Volume russo",
-      "artSub": "Qual combina com você?",
-      "artData1": "Fio a fio | natural",
-      "artData2": "Volume russo | marcante",
+      "tag": "Dúvida frequente",
+      "template": "cartao",
+      "artTitulo": "Extensão de cílios dói?",
+      "artSub": "Te respondo agora 🤔",
       "fonte": "",
       "url": "",
-      "texto": "Fio a fio ou volume russo? A dúvida de toda cliente 👀\n\nFio a fio: um fio pra cada fio natural, efeito leve e discreto.\n\nVolume russo: leques de vários fios, efeito denso e marcante.\n\nDica: olhos com poucos fios pedem volume, olhos cheios ficam lindos no fio a fio. 💛\n\nQual combina mais com você? Comenta 👇\n\n#ExtensãoDeCílios #FioAFio #VolumeRusso #LashDesign"
+      "texto": "\"Extensão de cílios dói?\" 🤔\n\nRecebo essa pergunta toda semana, então respondo de vez:\n\nnão dói. A maioria das clientes relaxa tanto que dorme durante a aplicação. 😴\n\nVocê fica deitada, de olhos fechados, num ambiente tranquilo do começo ao fim.\n\nFicou com outra dúvida? Manda aqui 👇\n\n#ExtensãoDeCílios #LashDesign #CuidadosComOsCílios #CíliosRJ"
     },
     {
       "categoria": "car",
@@ -25,14 +23,16 @@ window.POSTS = {
       "texto": "Um pedacinho do meu dia no estúdio 🎧\n\nO que ninguém vê: cada aplicação leva de 1h30 a 2h de concentração total, fio por fio.\n\nAmo esse ritual, é meu momento de foco e de cuidado com a cliente. 💛\n\nCada uma sai com o olhar renovado, e isso não tem preço.\n\nMarca quem merece esse momento de autocuidado 👇\n\n#LashDesigner #EstúdioDeCílios #BastidoresLash #CíliosRJ"
     },
     {
-      "categoria": "pro",
-      "tag": "Depoimento",
-      "template": "forbes",
-      "artTitulo": "Nunca me senti tão bonita, agora acordo pronta.",
-      "artSub": "",
+      "categoria": "edu",
+      "tag": "Guia · Técnicas",
+      "template": "extrato",
+      "artTitulo": "Fio a fio x Volume russo",
+      "artSub": "Qual combina com você?",
+      "artData1": "Fio a fio | natural",
+      "artData2": "Volume russo | marcante",
       "fonte": "",
       "url": "",
-      "texto": "\"Nunca me senti tão bonita, agora acordo pronta.\" 🥹\n\nFoi o que uma cliente me disse depois da aplicação.\n\nEla veio insegura, achando que não combinava com ela, e saiu apaixonada.\n\nVer a cliente se olhar no espelho e sorrir é tudo pra mim. 💛\n\nQuer sentir isso também? Agenda no direct ✨\n\n#ExtensãoDeCílios #Autoestima #LashLovers #CíliosPerfeitos"
+      "texto": "Fio a fio ou volume russo? A dúvida de toda cliente 👀\n\nFio a fio: um fio pra cada fio natural, efeito leve e discreto.\n\nVolume russo: leques de vários fios, efeito denso e marcante.\n\nDica: olhos com poucos fios pedem volume, olhos cheios ficam lindos no fio a fio. 💛\n\nQual combina mais com você? Comenta 👇\n\n#ExtensãoDeCílios #FioAFio #VolumeRusso #LashDesign"
     }
   ]
 };
