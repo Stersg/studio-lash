@@ -1,7 +1,17 @@
 /* Gerado automaticamente pelo robô semanal. Não edite à mão. */
 window.POSTS = {
-  "data": "28/09/2026",
+  "data": "05/10/2026",
   "itens": [
+    {
+      "categoria": "pro",
+      "tag": "Transformação",
+      "template": "cartao",
+      "artTitulo": "Ela não usava mais rímel",
+      "artSub": "E o olhar mudou tudo.",
+      "fonte": "",
+      "url": "",
+      "texto": "Ela chegou dizendo que vivia cansada de passar rímel e ele borrar. 👀\n\nDepois da extensão, o olhar dela ganhou vida sem nenhum esforço.\n\nNão é sobre exagero, é sobre valorizar o que já é seu. ✨\n\nQuer viver essa mudança? Chama no direct pra agendar 💛\n\n#Transformação #ExtensãoDeCílios #AntesEDepois #LashLovers"
+    },
     {
       "categoria": "con",
       "tag": "Frase · Rotina",
@@ -13,24 +23,14 @@ window.POSTS = {
       "texto": "Acordar linda também é ganhar tempo. ⏰\n\nImagina não precisar do rímel, do curvex, da correria antes de sair.\n\nUm olhar valorizado é praticidade e autoestima logo cedo. 💛\n\nVocê trocaria a maquiagem diária por isso? Comenta 👇\n\n#ExtensãoDeCílios #Praticidade #Autocuidado #CíliosPerfeitos"
     },
     {
-      "categoria": "pro",
-      "tag": "Antes e depois",
+      "categoria": "edu",
+      "tag": "Dúvida frequente",
       "template": "cartao",
-      "artTitulo": "Do olhar apagado ao olhar de boneca",
-      "artSub": "Sem maquiagem, só técnica.",
+      "artTitulo": "Extensão de cílios dói?",
+      "artSub": "Te respondo agora 🤔",
       "fonte": "",
       "url": "",
-      "texto": "Antes: olhar apagado, dependendo de rímel todo dia. 👀\n\nDepois: olhar iluminado e aberto, linda ao acordar sem uma gota de maquiagem. ✨\n\nTécnica usada: volume brasileiro com efeito boneca.\n\nEsse é o poder de um olhar valorizado do jeito certo. 💛\n\nQuer esse resultado? Chama no direct pra agendar. Salva pra inspiração 👇\n\n#AntesEDepois #ExtensãoDeCílios #Transformação #LashLovers"
-    },
-    {
-      "categoria": "pro",
-      "tag": "Transformação",
-      "template": "cartao",
-      "artTitulo": "Ela não usava mais rímel",
-      "artSub": "E o olhar mudou tudo.",
-      "fonte": "",
-      "url": "",
-      "texto": "Ela chegou dizendo que vivia cansada de passar rímel e ele borrar. 👀\n\nDepois da extensão, o olhar dela ganhou vida sem nenhum esforço.\n\nNão é sobre exagero, é sobre valorizar o que já é seu. ✨\n\nQuer viver essa mudança? Chama no direct pra agendar 💛\n\n#Transformação #ExtensãoDeCílios #AntesEDepois #LashLovers"
+      "texto": "\"Extensão de cílios dói?\" 🤔\n\nRecebo essa pergunta toda semana, então respondo de vez:\n\nnão dói. A maioria das clientes relaxa tanto que dorme durante a aplicação. 😴\n\nVocê fica deitada, de olhos fechados, num ambiente tranquilo do começo ao fim.\n\nFicou com outra dúvida? Manda aqui 👇\n\n#ExtensãoDeCílios #LashDesign #CuidadosComOsCílios #CíliosRJ"
     }
   ]
 };
