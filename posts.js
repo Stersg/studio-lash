@@ -1,7 +1,18 @@
 /* Gerado automaticamente pelo robô semanal. Não edite à mão. */
 window.POSTS = {
-  "data": "05/10/2026",
+  "data": "12/10/2026",
   "itens": [
+    {
+      "categoria": "edu",
+      "tag": "Dica · Cuidados",
+      "template": "numero",
+      "num": "4",
+      "artTitulo": "hábitos que estragam o seu cílio sem você notar",
+      "artSub": "Evite esses 🚫",
+      "fonte": "",
+      "url": "",
+      "texto": "4 hábitos que estragam o seu cílio sem você notar 🚫\n\n1. Coçar ou puxar os fios.\n2. Dormir de bruços amassando o olho.\n3. Usar demaquilante oleoso na região.\n4. Ficar sem escovar por dias.\n\nPequenas mudanças, resultado que dura muito mais. 🤍\n\nSalva e marca a amiga que precisa ver 👇\n\n#CuidadosComOsCílios #ExtensãoDeCílios #LashCare #LashDesign"
+    },
     {
       "categoria": "pro",
       "tag": "Transformação",
@@ -21,16 +32,6 @@ window.POSTS = {
       "fonte": "",
       "url": "",
       "texto": "Acordar linda também é ganhar tempo. ⏰\n\nImagina não precisar do rímel, do curvex, da correria antes de sair.\n\nUm olhar valorizado é praticidade e autoestima logo cedo. 💛\n\nVocê trocaria a maquiagem diária por isso? Comenta 👇\n\n#ExtensãoDeCílios #Praticidade #Autocuidado #CíliosPerfeitos"
-    },
-    {
-      "categoria": "edu",
-      "tag": "Dúvida frequente",
-      "template": "cartao",
-      "artTitulo": "Extensão de cílios dói?",
-      "artSub": "Te respondo agora 🤔",
-      "fonte": "",
-      "url": "",
-      "texto": "\"Extensão de cílios dói?\" 🤔\n\nRecebo essa pergunta toda semana, então respondo de vez:\n\nnão dói. A maioria das clientes relaxa tanto que dorme durante a aplicação. 😴\n\nVocê fica deitada, de olhos fechados, num ambiente tranquilo do começo ao fim.\n\nFicou com outra dúvida? Manda aqui 👇\n\n#ExtensãoDeCílios #LashDesign #CuidadosComOsCílios #CíliosRJ"
     }
   ]
 };
