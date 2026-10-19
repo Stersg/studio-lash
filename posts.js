@@ -1,17 +1,28 @@
 /* Gerado automaticamente pelo robô semanal. Não edite à mão. */
 window.POSTS = {
-  "data": "12/10/2026",
+  "data": "19/10/2026",
   "itens": [
     {
       "categoria": "edu",
-      "tag": "Dica · Cuidados",
-      "template": "numero",
-      "num": "4",
-      "artTitulo": "hábitos que estragam o seu cílio sem você notar",
-      "artSub": "Evite esses 🚫",
+      "tag": "Dúvida frequente",
+      "template": "cartao",
+      "artTitulo": "Extensão de cílios dói?",
+      "artSub": "Te respondo agora 🤔",
       "fonte": "",
       "url": "",
-      "texto": "4 hábitos que estragam o seu cílio sem você notar 🚫\n\n1. Coçar ou puxar os fios.\n2. Dormir de bruços amassando o olho.\n3. Usar demaquilante oleoso na região.\n4. Ficar sem escovar por dias.\n\nPequenas mudanças, resultado que dura muito mais. 🤍\n\nSalva e marca a amiga que precisa ver 👇\n\n#CuidadosComOsCílios #ExtensãoDeCílios #LashCare #LashDesign"
+      "texto": "\"Extensão de cílios dói?\" 🤔\n\nRecebo essa pergunta toda semana, então respondo de vez:\n\nnão dói. A maioria das clientes relaxa tanto que dorme durante a aplicação. 😴\n\nVocê fica deitada, de olhos fechados, num ambiente tranquilo do começo ao fim.\n\nFicou com outra dúvida? Manda aqui 👇\n\n#ExtensãoDeCílios #LashDesign #CuidadosComOsCílios #CíliosRJ"
+    },
+    {
+      "categoria": "edu",
+      "tag": "Guia · Técnicas",
+      "template": "extrato",
+      "artTitulo": "Fio a fio x Volume russo",
+      "artSub": "Qual combina com você?",
+      "artData1": "Fio a fio | natural",
+      "artData2": "Volume russo | marcante",
+      "fonte": "",
+      "url": "",
+      "texto": "Fio a fio ou volume russo? A dúvida de toda cliente 👀\n\nFio a fio: um fio pra cada fio natural, efeito leve e discreto.\n\nVolume russo: leques de vários fios, efeito denso e marcante.\n\nDica: olhos com poucos fios pedem volume, olhos cheios ficam lindos no fio a fio. 💛\n\nQual combina mais com você? Comenta 👇\n\n#ExtensãoDeCílios #FioAFio #VolumeRusso #LashDesign"
     },
     {
       "categoria": "pro",
@@ -22,16 +33,6 @@ window.POSTS = {
       "fonte": "",
       "url": "",
       "texto": "Ela chegou dizendo que vivia cansada de passar rímel e ele borrar. 👀\n\nDepois da extensão, o olhar dela ganhou vida sem nenhum esforço.\n\nNão é sobre exagero, é sobre valorizar o que já é seu. ✨\n\nQuer viver essa mudança? Chama no direct pra agendar 💛\n\n#Transformação #ExtensãoDeCílios #AntesEDepois #LashLovers"
-    },
-    {
-      "categoria": "con",
-      "tag": "Frase · Rotina",
-      "template": "tweet",
-      "artTitulo": "Acordar linda também é ganhar tempo.",
-      "artSub": "Sem correria de manhã.",
-      "fonte": "",
-      "url": "",
-      "texto": "Acordar linda também é ganhar tempo. ⏰\n\nImagina não precisar do rímel, do curvex, da correria antes de sair.\n\nUm olhar valorizado é praticidade e autoestima logo cedo. 💛\n\nVocê trocaria a maquiagem diária por isso? Comenta 👇\n\n#ExtensãoDeCílios #Praticidade #Autocuidado #CíliosPerfeitos"
     }
   ]
 };
