@@ -1,38 +1,36 @@
 /* Gerado automaticamente pelo robô semanal. Não edite à mão. */
 window.POSTS = {
-  "data": "19/10/2026",
+  "data": "26/10/2026",
   "itens": [
     {
-      "categoria": "edu",
-      "tag": "Dúvida frequente",
-      "template": "cartao",
-      "artTitulo": "Extensão de cílios dói?",
-      "artSub": "Te respondo agora 🤔",
+      "categoria": "aut",
+      "tag": "Opinião",
+      "template": "cofre",
+      "artTitulo": "O natural voltou com tudo",
+      "artSub": "Menos é mais.",
       "fonte": "",
       "url": "",
-      "texto": "\"Extensão de cílios dói?\" 🤔\n\nRecebo essa pergunta toda semana, então respondo de vez:\n\nnão dói. A maioria das clientes relaxa tanto que dorme durante a aplicação. 😴\n\nVocê fica deitada, de olhos fechados, num ambiente tranquilo do começo ao fim.\n\nFicou com outra dúvida? Manda aqui 👇\n\n#ExtensãoDeCílios #LashDesign #CuidadosComOsCílios #CíliosRJ"
+      "texto": "Opinião que talvez você não goste de ouvir:\n\nnem toda cliente deveria fazer o volume mais pesado. 💬\n\nCílio bonito é o que respeita a saúde e a quantidade do seu fio natural. Peso demais quebra o cílio.\n\nO luxo de verdade hoje é a delicadeza. 🤍\n\nVocê é time natural ou time volumoso? Comenta 👇\n\n#ExtensãoDeCílios #CíliosNaturais #LashDesign #MenosÉMais"
     },
     {
-      "categoria": "edu",
-      "tag": "Guia · Técnicas",
-      "template": "extrato",
-      "artTitulo": "Fio a fio x Volume russo",
-      "artSub": "Qual combina com você?",
-      "artData1": "Fio a fio | natural",
-      "artData2": "Volume russo | marcante",
+      "categoria": "con",
+      "tag": "Agenda aberta",
+      "template": "cofre",
+      "artTitulo": "Seu olhar merece esse cuidado",
+      "artSub": "Agende seu horário 💛",
       "fonte": "",
       "url": "",
-      "texto": "Fio a fio ou volume russo? A dúvida de toda cliente 👀\n\nFio a fio: um fio pra cada fio natural, efeito leve e discreto.\n\nVolume russo: leques de vários fios, efeito denso e marcante.\n\nDica: olhos com poucos fios pedem volume, olhos cheios ficam lindos no fio a fio. 💛\n\nQual combina mais com você? Comenta 👇\n\n#ExtensãoDeCílios #FioAFio #VolumeRusso #LashDesign"
+      "texto": "Cansada de depender do rímel todo santo dia? ✨\n\nImagina acordar, se olhar no espelho e já estar linda. Sem esconder o olhar cansado. 👀\n\nCom a extensão você acorda pronta e ganha tempo de manhã.\n\nBora realizar esse desejo? Chama no direct ou clica no link da bio 💛\n\n#ExtensãoDeCílios #CíliosRJ #Curicica #AgendaAberta"
     },
     {
-      "categoria": "pro",
-      "tag": "Transformação",
-      "template": "cartao",
-      "artTitulo": "Ela não usava mais rímel",
-      "artSub": "E o olhar mudou tudo.",
+      "categoria": "car",
+      "tag": "Bastidores",
+      "template": "cofre",
+      "artTitulo": "O que ninguém vê no atendimento",
+      "artSub": "Cuidado em cada detalhe 🤍",
       "fonte": "",
       "url": "",
-      "texto": "Ela chegou dizendo que vivia cansada de passar rímel e ele borrar. 👀\n\nDepois da extensão, o olhar dela ganhou vida sem nenhum esforço.\n\nNão é sobre exagero, é sobre valorizar o que já é seu. ✨\n\nQuer viver essa mudança? Chama no direct pra agendar 💛\n\n#Transformação #ExtensãoDeCílios #AntesEDepois #LashLovers"
+      "texto": "Um pedacinho do meu dia no estúdio 🎧\n\nO que ninguém vê: cada aplicação leva de 1h30 a 2h de concentração total, fio por fio.\n\nAmo esse ritual, é meu momento de foco e de cuidado com a cliente. 💛\n\nCada uma sai com o olhar renovado, e isso não tem preço.\n\nMarca quem merece esse momento de autocuidado 👇\n\n#LashDesigner #EstúdioDeCílios #BastidoresLash #CíliosRJ"
     }
   ]
 };

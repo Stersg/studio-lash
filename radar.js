@@ -1,43 +1,43 @@
 /* Gerado automaticamente pelo robô semanal. Não edite à mão. */
 window.RADAR = {
-  "atualizadoEm": "19/10/2026",
+  "atualizadoEm": "26/10/2026",
   "itens": [
     {
-      "categoria": "edu",
-      "tag": "Tendência · Cuidado",
-      "template": "cofre",
-      "fonte": "",
-      "url": "",
-      "titulo": "O óleo é o inimigo número 1 dos cílios",
-      "resumo": "Produtos oleosos derrubam a extensão antes da hora.",
-      "artTitulo": "Fuja do óleo perto dos olhos",
-      "artSub": "Proteja a fixação",
-      "texto": "Se tem uma coisa que derruba cílio antes da hora, é o óleo. 🚫\n\nDemaquilantes bifásicos, cremes oleosos e alguns protetores soltam os fios mais rápido.\n\nA dica é usar produtos oil free na região e limpar com shampoo específico.\n\nCuidado simples, resultado que dura muito mais. 💛\n\nVocê sabia dessa? Comenta 👇\n\n#CuidadosComOsCílios #ExtensãoDeCílios #LashCare #CíliosPerfeitos"
-    },
-    {
-      "categoria": "edu",
-      "tag": "Tendência · Técnica",
+      "categoria": "aut",
+      "tag": "Tendência · Híbrido",
       "template": "cartao",
       "fonte": "",
       "url": "",
-      "titulo": "Lash lifting: o realce sem extensão",
-      "resumo": "Curvatura e nutrição no seu próprio fio, pra quem quer algo mais discreto.",
-      "artTitulo": "Lash lifting é pra você?",
-      "artSub": "Realce no seu próprio cílio",
-      "texto": "Nem toda cliente quer extensão, e tá tudo bem. 🤍\n\nO lash lifting curva e realça o seu próprio fio, com um efeito natural de rímel.\n\nÉ ótimo pra quem tem cílios bons e quer algo discreto e prático.\n\nQuer entender se combina com você? Me chama no direct 💛\n\n#LashLifting #ExtensãoDeCílios #CíliosNaturais #LashDesign"
+      "titulo": "Efeito híbrido: o melhor dos dois mundos",
+      "resumo": "Mistura de fio a fio com volume, textura natural e cheia ao mesmo tempo.",
+      "artTitulo": "Híbrido: textura e volume",
+      "artSub": "O melhor dos dois mundos",
+      "texto": "Não consegue decidir entre fio a fio e volume? O híbrido é pra você. ✨\n\nEle mistura as duas técnicas, criando textura natural com um toque de volume.\n\nFica cheio sem parecer pesado, com aquele ar despojado e real.\n\nTendência forte pra quem quer natural, mas com presença. 💛\n\nVocê faria um híbrido? Comenta 👇\n\n#ExtensãoDeCílios #EfeitoHíbrido #LashDesign #CíliosNaturais"
+    },
+    {
+      "categoria": "aut",
+      "tag": "Novidade · Naturalidade",
+      "template": "cofre",
+      "fonte": "",
+      "url": "",
+      "titulo": "Menos é mais: a onda do natural",
+      "resumo": "O exagero saiu de moda. A busca agora é pelo cílio que parece seu.",
+      "artTitulo": "O natural voltou com tudo",
+      "artSub": "O cílio que parece seu, só que melhor",
+      "texto": "A tendência mais forte agora é o olhar natural. 🤍\n\nAs clientes chegam pedindo o efeito de \"parece que nasci assim\".\n\nE eu amo isso, porque cílio bonito respeita o seu fio natural e a sua rotina.\n\nUm bom mapeamento faz o volume certo valorizar sem sobrecarregar. 💛\n\nVocê é time natural ou volumoso? Comenta 👇\n\n#ExtensãoDeCílios #CíliosNaturais #LashDesign #MenosÉMais"
     },
     {
       "categoria": "edu",
-      "tag": "Tendência · Manutenção",
+      "tag": "Tendência · Curvatura",
       "template": "numero",
       "num": "3",
       "fonte": "",
       "url": "",
-      "titulo": "De quanto em quanto tempo fazer manutenção",
-      "resumo": "A média é a cada 3 semanas, mas depende do seu cuidado.",
-      "artTitulo": "3 semanas é o ideal",
-      "artSub": "Não deixe passar 💆‍♀️",
-      "texto": "De quanto em quanto tempo fazer a manutenção? 💆‍♀️\n\nA média é a cada 3 semanas, mas varia com o ciclo do seu cílio e os seus cuidados.\n\nAgende antes de perder metade dos fios: fica mais rápido e econômico.\n\nQuem cuida direitinho estica o intervalo e economiza. 🤍\n\nSalva pra lembrar da sua próxima 👇\n\n#ManutençãoDeCílios #ExtensãoDeCílios #CuidadosComOsCílios #LashCare"
+      "titulo": "Curvaturas C, D e M: o que muda",
+      "resumo": "A curvatura certa valoriza o formato do seu olho.",
+      "artTitulo": "A curvatura muda tudo",
+      "artSub": "C, D ou M pro seu olho",
+      "texto": "A curvatura é o segredo que poucas clientes conhecem. 💡\n\n1. Curvatura C: levanta de forma suave e natural.\n2. Curvatura D: bem marcante, olhar bem aberto.\n3. Curvatura M: efeito espetadinho, super em alta.\n\nA escolha certa depende do formato do seu olho e da queda do seu fio. 💛\n\nQuer saber qual é a sua? Me chama 👇\n\n#ExtensãoDeCílios #CurvaturaDeCílios #LashDesign #CíliosPerfeitos"
     }
   ]
 };
